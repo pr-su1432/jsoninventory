@@ -21,9 +21,10 @@ namespace jsoninventory
             {
                 var json = file.ReadToEnd();
                 var items = JsonConvert.DeserializeObject<List<inventorymodel>>(json);
+                
                 foreach (var objects in items)
                 {
-                    Console.WriteLine(objects.name + " " + objects.price + " " + objects.Weight);
+                    Console.WriteLine(objects.name+ " " + objects.price + " " + objects.share);
                    
                 }
             }

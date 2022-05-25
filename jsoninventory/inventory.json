@@ -1,17 +1,21 @@
-[
-  {
-    "name": "Rice",
-    "price": "500",
-    "Weight": "20"
-  },
-  {
-    "name": "wheet",
-    "price": "50",
-    "Weight": "10"
-  },
-  {
-    "name": "pulses",
-    "price": "200",
-    "Weight": "40"
-  }
-]
+
+  [
+    {
+      "name": "prasanna",
+      "price": "3000",
+      "share": "20"
+    },
+    {
+      "name": "arjun",
+      "price": "5000",
+      "share": "10"
+    },
+    {
+      "name": "lakshmi",
+      "price": "2000",
+      "share": "40"
+    }
+  ]
+
+ 
+

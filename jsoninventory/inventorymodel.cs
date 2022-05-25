@@ -9,7 +9,7 @@ namespace jsoninventory
     internal class inventorymodel
     {
         public string name { get; set; }
-        public int Weight { get; set; }
+        public int share { get; set; }
         public int price { get; set; }
     }
 }
