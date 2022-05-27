@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace jsoninventory
 {
     internal class inventorymodel
     {
-        public string name { get; set; }
-        public int share { get; set; }
-        public int price { get; set; }
+        public List<inventorymodelclass> Rice { get; set; }
+        public List<inventorymodelclass> Wheet { get; set; }
+        public List<inventorymodelclass> Pulses { get; set; }
     }
 }
+

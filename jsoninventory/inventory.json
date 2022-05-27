@@ -1,21 +1,62 @@
+{
 
+  "Rice":
   [
     {
-      "name": "prasanna",
-      "price": "3000",
-      "share": "20"
+      "name": "basmathi",
+      "price": "500",
+      "Weight": "20"
     },
     {
-      "name": "arjun",
-      "price": "5000",
-      "share": "10"
+      "name": "masura",
+      "price": "50",
+      "Weight": "10"
     },
     {
-      "name": "lakshmi",
-      "price": "2000",
-      "share": "40"
+      "name": "sriramgold",
+      "price": "200",
+      "Weight": "40"
+    }
+  ],
+
+  "Wheet":
+  [
+    {
+      "name": "Wheet1",
+      "price": "300",
+      "Weight": "20"
+    },
+    {
+      "name": "Wheet2",
+      "price": "70",
+      "Weight": "5"
+    },
+    {
+      "name": "Wheet3",
+      "price": "200",
+      "Weight": "60"
+    }
+
+  ],
+  "pulses": 
+  [
+    {
+      "name": "greengram",
+      "price": "600",
+      "Weight": "50"
+    },
+    {
+      "name": "peas",
+      "price": "70",
+      "Weight": "20"
+    },
+    {
+      "name": "blackgram",
+      "price": "400",
+      "Weight": "40"
     }
   ]
 
- 
+  
+}
 

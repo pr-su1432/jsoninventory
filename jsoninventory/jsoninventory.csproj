@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="C:\Users\hp\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.JsonResult" Version="1.0.5778.10762" />
+    <PackageReference Include="NLog" Version="5.0.0" />
   </ItemGroup>
 
 </Project>
